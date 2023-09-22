@@ -22,25 +22,14 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/social-media-api.git
+git clone $this repo
 Install dependencies:
 
 bash
 Copy code
 cd social-media-api
 npm install
-Configure your environment variables:
-
-Create a .env file in the root directory.
-
-Define the following environment variables:
-
-plaintext
-Copy code
-PORT=3000
-MONGODB_URI=mongodb://localhost/social-media-db
-JWT_SECRET=your-secret-key
-Start the server:
+Configure your environment variables to connect to your local mongo:
 
 API Endpoints
 
