@@ -41,3 +41,22 @@ PORT=3000
 MONGODB_URI=mongodb://localhost/social-media-db
 JWT_SECRET=your-secret-key
 Start the server:
+
+API Endpoints
+GET /api/users: Get a list of all users.
+GET /api/users/:userId: Get a specific user by ID.
+POST /api/users: Create a new user.
+PUT /api/users/:userId: Update a user
+DELETE /api/users/:userId: Delete a user's profile.
+GET /api/thoughts: Get a list of all posts.
+GET /api/thoughts/:thoughtId: Get a specific thought by ID.
+POST /api/thoughts: Create a new thought.
+PUT /api/thought/:postId: Update a thought.
+DELETE /api/thoughts/:postId: Delete a thought.
+POST /api/users/:userId/friends/:friendId Add a friend
+DELETE /api/users/:userId/friends/:friendId Lose a friend
+
+
+
+
+
