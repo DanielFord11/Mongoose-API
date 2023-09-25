@@ -4,6 +4,8 @@ Social Media API with Mongoose
 Overview
 This is a Node.js application that serves as the backend API for a social media platform, built using Mongoose, a MongoDB object modeling library. It provides a robust and scalable foundation for creating and managing social media content, user profiles, and interactions.
 
+walk through video: chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/a2dbc89b-eb70-4c14-y9e1-582422cab4bb
+
 Features
 User Management: Create, update, and delete user profiles.
 Post Creation: Allow users to create and manage posts.
